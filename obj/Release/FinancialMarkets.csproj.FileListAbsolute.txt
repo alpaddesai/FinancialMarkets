@@ -1,0 +1,16 @@
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.exe.config
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.exe
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.pdb
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\GovernmentRegulations.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\MainWindow.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\App.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets_MarkupCompile.cache
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets_MarkupCompile.lref
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\GovernmentRegulations.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\MainWindow.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.g.resources
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.Properties.Resources.resources
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.csproj.GenerateResource.cache
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.csproj.CoreCompileInputs.cache
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.exe
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.pdb

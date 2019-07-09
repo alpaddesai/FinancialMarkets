@@ -1,0 +1,183 @@
+﻿<Window x:Class="FinancialMarkets.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinancialMarkets"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="721.189" Width="1440.208" MaxHeight="721" MaxWidth="1440">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="0"/>
+            <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,8,11">
+        <RichTextBox HorizontalAlignment="Left" Height="339" Margin="9,3,0,0" VerticalAlignment="Top" Width="679" TextChanged="RichTextBox_TextChanged">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="                                                                   "/>
+                    <Run FontWeight="Bold" Text="Government Policies " TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="6,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Monetary Expansion Policy "/>
+                    <Run FontSize="12" Text=": A monetary expansion policy by the federal reserve can be implemented in very specific scenarios. One  example would be reducing interest rates to reduce the gap between actual and expected production output nation-wide, hence a during a recession this policy would be implemented post analyzing various economic factors. Reduction in interest rates impacts bond valuations, consumer disposable income and appreciation rates of the United States dollar."/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Monetary Contractionary Policy "/>
+                    <Run FontSize="12" Text=": A monetary contraction policy would be applied to modify and control increases in the price of goods one example would be inflation. "/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontSize="12" Text="Knowledge on Fiscal Policies"/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="6,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Fiscal Annual Government Budget "/>
+                    <Run FontSize="12" Text=":The government deficit is determined by the difference in the government spending and government revenue. Examples of government spending would be a stimulus package, maintaining international federal reserves, treasury bond transactions. Examples of government revenue would be increase/reduction in taxes and treasury bond transactions."/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Compliance, Regulations, Stimulus Package"/>
+                    <Run FontSize="12" Text=": Various other strategies to stabilize financial markets employed by the federal government include stimulus packages, regulations and policies."/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontSize="12" Text=" "/>
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Government Risk Mitigation Strategies "/>
+                </Paragraph>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="26,0,0,10.67" TextAlignment="Justify">
+                    <Run FontSize="12" Text="Monetary government policies are analyzed and adjusted to maintain the money supply and stabilize macro-economic indicators. Risk mitigation strategies are applied by the federal government to reduce the risk of supply and demand shocks in the market. One example of a supply shock would be the increase in the total cost of production of goods because the price of oil increases, another example would be the minimum wage increases hence causing higher cost of production of goods hence decreasing the total GDP.  Hence the federal government consistently monitors and recalibrates major macroeconomic indicators to achieve optimal GDP growth levels for the United States."/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontSize="12" Text=" "/>
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Macroeconomic Indicators"/>
+                </Paragraph>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="26,0,0,10.67" TextAlignment="Justify">
+                    <Run FontSize="12" Text="Major macroeconomic indicators impacting government policies and regulations include interest rates, unemployment rates, consumer confidence index, consumer price index, inflation, inter-bank loan interest rates, revenue from exports and cost of imports"/>
+                    <Run Text="."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="294" Margin="4,378,0,0" VerticalAlignment="Top" Width="683" FontSize="13" TextChanged="RichTextBox_TextChanged_1">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontFamily="Times New Roman" Margin="0,16,0,0" TextAlignment="Center">
+                    <Run Text="Company Specific Equity Analysis" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Investment Analysis"/>
+                </Paragraph>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="6,0,0,10.67" TextAlignment="Justify">
+                    <Run FontSize="12" Text="The purpose of the investment analysis would be to analyze and predict the equity security value, by definition it would be the present value of the predicted future cash flows hence determining whether the equity at present would be a buy or sell in terms of trading. Risk analysis in terms of margins on option pricing, derivatives, alternate investment strategies is also calculated by utilizing the company equity analysis through custom company databases and algorithms."/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Entity Valuations"/>
+                </Paragraph>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="6,0,0,10.67" TextAlignment="Justify">
+                    <Run FontSize="12" Text="  Entity valuations provide a detailed analysis on some of the key company financial ratios including earnings per share and profit margins. Future predictions on price per earnings including the impact of company specific capital structure in terms of debt to equity is an essential financial metric derived from entity valuations. Comparative industry financial ratios derived through entity valuations are utilized to analyze company performance relative to competitors. Brand recognitions, channel distributions, product performance and intellectual patented technology are the various research segments that are investigated when the entity valuations are calculated hence the accuracy of entity valuations is very important. Hence the value of the analysts opinion and research is measured by the accuracy of the entity valuations and financial ratios."/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Product Portfolio"/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="6,0,0,10.67" TextAlignment="Justify">
+                    <Run FontSize="12" Text="Revenue streams from the various existing product lines and services are analyzed and determined when evaluating the performance of the product portfolio relative to competitors, these parameters are also taken into consideration for future revenue predictions including the pipeline of new products and product launches."/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Comparative Analysis "/>
+                </Paragraph>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="6,0,0,10.67" TextAlignment="Justify">
+                    <Run FontSize="12" Text="The majority of large cap/mid cap companies within the technology industry contains high barriers to entry mostly due to the patented technology, high infrastructure costs, long term complex and confidential contracts with suppliers and distributers and high annual capital expenditures. Hence entry of new competitors in terms of banks and financial institutions in the financial market is rare."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="338" Margin="697,5,0,0" VerticalAlignment="Top" Width="716" TextChanged="RichTextBox_TextChanged_2">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontFamily="Times New Roman" Margin="0,16,0,0" TextAlignment="Center">
+                    <Run Text="Investment Management and Financial Services" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontSize="12" Text="Financial Markets"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Raising Capital in the Primary Financial Market: "/>
+                    <Run FontSize="12" Text="Depending on the business side employment opportunity this can be further segmented to  raising capital for corporations hence experience in the primary financial markets in  issuing new securities including equities and / or debt instruments can be developed. This can also include assistance in managing initial public offerings.  "/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Securities in the Secondary Financial Market: "/>
+                    <Run FontSize="12" Text="Capital and money markets provide options to trade equities, short term debt including treasury bills, commercial paper, certificate deposits, federal funds,  derivatives including options, contracts, futures, long term debt including mortgages, corporate bonds, treasury bonds, state and local government bonds. Knowledge on these categories can be developed based on the employment opportunity."/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="International Financial Markets:"/>
+                    <Run FontSize="12" Text=" Keeping interested and up to date on international financial market news including foreign exchange rates, inflation rates, real rate of interest and the impact on the dollar currency value in terms of appreciation or depreciation is required to be successful in this industry. Knowledge of how derivatives work including foreign exchange swaps and hedging foreign exchange risk would be required depending on the opportunity."/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Risk Management: "/>
+                    <Run FontSize="12" Text="Basic understanding in terms of strategic risk management for a financial institution includes being aware of the various economic factors that impact the major macroeconomic indicators that impact the company's revenue streams. This knowledge is then utilized in calculating different case scenarios and probabilities against interest rate risk, foreign exchange risk, market risk, credit risk, liquidity risk, technological risk, operational risk and sovereign risk. "/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Justify">
+                    <Run FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Portfolio Management: "/>
+                    <Run FontSize="12" Text="Applying the above stated academic foundation and basic concepts I executed an individual market mutual fund portfolio project. The process is described below:"/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Asset Allocation "/>
+                    <Run FontSize="12" Text="Due to specific regulatory concerns, this was not a custom asset allocated portfolio.  In general optimal asset allocation is required and this involves extensive research on existing market scenarios and future predictions on equities, bonds, commodities and the opportunity cost of cash."/>
+                </Paragraph>
+                <Paragraph FontSize="17.3333333333333" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Diversification, Risk, Return and the Efficient Frontier:"/>
+                    <Run FontSize="12" Text=" Basic knowledge on portfolio construction includes identifying the optimal risk-reward construction.  The optimal portfolio would be the one with the highest rate of return with the lowest volatility ie. Sharpe ratio. This also includes analyzing the covariance parameters of each asset within the portfolio.   However real time portfolio performance and analytics involves detailed analysis of the systemic risk of each asset that contributes to the total portfolio performance versus the non-systemic risk of each asset.  Identification, root cause analysis, tracking, measuring, recalculating, predicting and risk mitigation strategies including hedging  would be categories of advanced knowledge required to construct a real time portfolio. "/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontFamily="Times New Roman" Margin="0,16,0,0" TextAlignment="Center">
+                    <Run TextDecorations="Underline"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="311" Margin="696,359,0,0" VerticalAlignment="Top" Width="715" TextChanged="RichTextBox_TextChanged_3">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontSize="21.3333333333333" FontFamily="Times New Roman" Margin="0,16,0,0" TextAlignment="Center">
+                    <Run FontSize="13" Text="Information Technology Financial Services " TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Information Technology"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontSize="12" FontFamily="Times New Roman" Text="Gaining domain level knowledge on the company's custom software product is essential followed by an understanding of the applications, business clients and architectural requirements for the products. Staying current on disruptive technologies, industry reports and it's impacts to the potential revenue streams and revenue drivers on company's custom databases."/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontSize="12" FontFamily="Times New Roman"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Infrastructure "/>
+                    <Run FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontSize="12" Text="The information technology industry for financial markets is also a high barrier's to entry in terms of infrastructure costs and intellectual property. The established customer base also has very high switching costs mostly due to environmental factors including existing regulations. "/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Databases                                                                                                                                                                                                                   "/>
+                    <Run FontSize="12" Text="    Collection, analysis, parsing, customization of data from external environmental sources would be one of the main value propositions for any information technology service. Efficient and effective software algorithms that manipulate big data are the underlying patented technology within the databases."/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Applications"/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12"/>
+                    <Run FontSize="12" Text="The applications for the custom infrastructure and software systems include financial engineering risk management, financial services, financial transactions and data analytics. "/>
+                </Paragraph>
+                <Paragraph FontSize="18.6666666666667" FontFamily="Times New Roman" Margin="0,2.67,0,0" TextAlignment="Left">
+                    <Run FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="0,0,0,10.67" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="12" Text="Customers"/>
+                    <Run FontSize="12" Text=":                                                                                                                                                                &#x9;&#x9;&#x9; Internal customers would be the investment professionals and the financial services professionals within the organization. A revenue stream from external customers from an application software providing a financial service is also very common. "/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="Regulations" Content="Government Regulations" HorizontalAlignment="Left" Margin="259,347,0,0" VerticalAlignment="Top" Width="144" Height="24" Click="Regulations_Click"/>
+
+    </Grid>
+</Window>
