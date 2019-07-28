@@ -9,3 +9,21 @@ Company confidential information is not displayed. All images are either custom 
 
 ## Government Regulations
 ![image](GovtReg.png)
+
+## Portfolio Analysis
+![image](PortfolioAnalysis.png)
+
+## Companies
+![image](Companies.png)
+
+## Stock Market
+![image](StockMarketAnalysis.png)
+
+## Weekly Portfolio Analysis
+![image](WeekOne.png)
+
+## Weekly Portfolio Analysis Cntd
+![image](WeekTwo.png)
+
+## Forecast Companies
+![image](ForecastCompanies.png)
