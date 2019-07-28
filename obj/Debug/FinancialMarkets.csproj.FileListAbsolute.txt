@@ -1,16 +1,28 @@
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Debug\FinancialMarkets.exe.config
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Debug\FinancialMarkets.exe
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Debug\FinancialMarkets.pdb
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\Companies.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\GovernmentRegulations.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\MainWindow.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\PortfolioAnalysis.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\StockMarketAnalysis.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\WeekOne.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\WeekTwo.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\App.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\FinancialMarkets_MarkupCompile.cache
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\FinancialMarkets_MarkupCompile.lref
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\Companies.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\GovernmentRegulations.baml
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\MainWindow.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\PortfolioAnalysis.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\StockMarketAnalysis.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\WeekOne.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\WeekTwo.baml
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\FinancialMarkets.g.resources
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\FinancialMarkets.Properties.Resources.resources
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\FinancialMarkets.csproj.GenerateResource.cache
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\FinancialMarkets.csproj.CoreCompileInputs.cache
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\FinancialMarkets.exe
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\FinancialMarkets.pdb
-C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\GovernmentRegulations.g.cs
-C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\GovernmentRegulations.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\Forecast Companies.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Debug\Forecast Companies.baml

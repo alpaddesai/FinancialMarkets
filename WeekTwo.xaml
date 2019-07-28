@@ -1,0 +1,241 @@
+﻿<Window x:Class="FinancialMarkets.WeekTwo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinancialMarkets"
+        mc:Ignorable="d"
+        Title="WeekTwo" Height="792" Width="1249.923" MinWidth="1250" MinHeight="792">
+    <Grid MinWidth="1220" MinHeight="779" Margin="16,8,6,5" Width="1220" Height="779">
+        <RichTextBox HorizontalAlignment="Left" Height="737" Margin="6,2,0,0" VerticalAlignment="Top" Width="766" TextChanged="RichTextBox_TextChanged" RenderTransformOrigin="0.5,0.5">
+            <RichTextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.201"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-1.496"/>
+                </TransformGroup>
+            </RichTextBox.RenderTransform>
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Center">
+                    <Run FontSize="12" Text="PORTFOLIO PERFORMANCE FROM OCTOBER 24"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="TH" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="    TO DECEMBER 5"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="TH" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="    "/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="The purchase date is Sunday, October 24, 2004 and all the prices considered at close on Friday, October 22, 2004. The closing date is Friday, December 03, 2004."/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" FontFamily="Arial" Text="PORTFOLIO BETA:  1.14"/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" FontFamily="Arial"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="STOCKS SOLD: Bank of New York Company, Texas Instruments, Motorola, Textron Inc."/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" Text="STOCKS BOUGHT: Ford Motor Co., Staples, DuPont"/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" FontFamily="Arial"/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="ANALYSIS:&#x9;"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="24,0,0,0">
+                        <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontWeight="Normal" FontSize="12" Text="From the week of October 24"/>
+                            <Run FontWeight="Normal" FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                            <Run Text=" "/>
+                            <Run FontSize="12" Text=" "/>
+                            <Run Text=" "/>
+                            <Run FontWeight="Normal" FontSize="12" Text="to December 5"/>
+                            <Run FontWeight="Normal" FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                            <Run Text=" "/>
+                            <Run FontWeight="Normal" FontSize="12" Text=" the value of the portfolio increases by about six hundred dollars. The value of portfolio Beta obtained also closer to one than before due to trading of stocks of companies with higher beta. "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="24,0,0,0">
+                        <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontWeight="Normal" FontSize="12" Text="The main reason for increase in value of portfolio would be rise in prices of stocks in all the companies. A very high rise can be seen in Textron Inc."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="24,0,0,0">
+                        <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontWeight="Normal" FontSize="12" Text="The next section depicts a graphical analysis of the variation in Portfolio as compared to DJAI variance during these past few weeks. "/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" FontFamily="Arial"/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Center">
+                    <Run FontSize="12" Text="DEVIATION IN WEEK OF NOVEMBER 14"/>
+                    <Run FontSize="12" Text="TH" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="        "/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="As seen from the graph there is a deviation in between the portfolio variance and DJIA variance in the week of November 14"/>
+                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="  DJIA is almost steady decreasing whereas the portfolio index increases from November 14"/>
+                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="  to November 21"/>
+                    <Run FontSize="12" Text="st" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="       ."/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Both the DJIA index decreases from 1.46 to -0.78 while the portfolio improves from 0.058 to 0.401."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text=" There is also a increase in prices of stocks of the following companies:"/>
+                        </Paragraph>
+                        <List MarkerStyle="Disc" Margin="0" Padding="0">
+                            <ListItem Margin="48,0,0,0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Run FontSize="12" Text="DuPont stock price increases from 44.5 to 44.88."/>
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem Margin="48,0,0,0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Run FontSize="12" Text="Ford Motors Co. stock price have steadily improved in the week of November 7"/>
+                                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="  through November 14"/>
+                                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="       ."/>
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem Margin="48,0,0,0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Run FontSize="12" Text="Texas Instruments stock price increases from 24.36 to 24.69."/>
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem Margin="48,0,0,0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Run FontSize="12" Text="Motorola stocks rise from 17.07 to 18.1."/>
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem Margin="0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="48,0,0,0" TextAlignment="Justify">
+                                    <Run FontSize="12" Text="Textron steadily increases during the week of October 31"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="st" Typography.Variants="Superscript"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="  throughout November 7"/>
+                                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="   rising from 71.03 to 71.5 during the November 14"/>
+                                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="  week."/>
+                                </Paragraph>
+                                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                                    <ListItem Margin="0">
+                                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                            <Run FontSize="12" Text="Hence due to the rise in stock prices in the five out of seven companies within the portfolio, with minimal decrease in prices with Bank of New York Company Inc. and Staples. Overall index of the portfolio rises above the DJIA index. "/>
+                                        </Paragraph>
+                                    </ListItem>
+                                </List>
+                            </ListItem>
+                        </List>
+                    </ListItem>
+                </List>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="The overall decrease in DJIA and Portfolio on Week of November 7"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="  , is mainly thought to be due to Federal Reserve Chief Alan Greenspan as mentioned in the Louis Rukeyser's program, that he during a German Conference warned others of the USA deficits, reliance in foreign investors and dropping value of dollar. Due to this reason the stock market on Friday fell causing DJIA index to decrease."/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Center">
+                    <Run FontSize="12" Text="DEVIATION IN WEEK OF NOVEMBER 28 "/>
+                    <Run FontSize="12" Text="TH" Typography.Variants="Superscript"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="As seen from the graph there is a deviation in between the portfolio variance and DJIA variance in the week of November 28"/>
+                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text=" . DJIA is almost increasing whereas the portfolio index decreases in large from November 28 "/>
+                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="    to December 5"/>
+                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="As seen from the graph DJIA is almost increasing from 0.63 to 0.67 whereas the portfolio index decreases in large amount from 2.69 to 0.732 "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text=" There is also a decrease in prices of stocks in Motorola stock price decrease from 19 to 17.85."/>
+                        </Paragraph>
+                        <List MarkerStyle="Disc" Margin="0" Padding="0">
+                            <ListItem Margin="0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Run FontSize="12" Text="From the week of November 21"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="st" Typography.Variants="Superscript"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="    to November 28"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="   , there is a large rise in price of the stocks in all the companies. On the week of November 28"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                                    <Run Text=" "/>
+                                    <Run FontSize="12" Text=" , there reaches a very high state, then drops down to its normal steady state value and prices rise at a very small amount in my portfolio, whereas the DJIA rises steadily with very little variance. "/>
+                                </Paragraph>
+                            </ListItem>
+                        </List>
+                    </ListItem>
+                </List>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="The overall increase in DJIA on this week would be the small drop in Oil prices and as for the Portfolio, it  is mainly going back to the value it had during November 21"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="st" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="   , before it shot up during November 28"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="th" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text="  week. "/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image HorizontalAlignment="Left" Height="255" Margin="776,13,0,0" VerticalAlignment="Top" Width="434" Source="Image13.png"/>
+        <Image HorizontalAlignment="Left" Height="332" Margin="778,265,0,0" VerticalAlignment="Top" Width="432" Source="Image14.png"/>
+
+    </Grid>
+</Window>

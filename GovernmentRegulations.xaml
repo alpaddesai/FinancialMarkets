@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinancialMarkets"
         mc:Ignorable="d"
-        Title="GovernmentRegulations" Height="482" Width="1210" MaxWidth="1210" MaxHeight="482">
+        Title="GovernmentRegulations" Height="482" Width="1210" MaxWidth="1210" MaxHeight="482" MinWidth="1210" MinHeight="482">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black" Offset="0"/>

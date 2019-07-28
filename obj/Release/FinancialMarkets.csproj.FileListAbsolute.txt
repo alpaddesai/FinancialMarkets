@@ -1,13 +1,26 @@
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.exe.config
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.exe
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.pdb
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.csprojAssemblyReference.cache
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\Companies.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\Forecast Companies.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\GovernmentRegulations.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\MainWindow.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\PortfolioAnalysis.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\StockMarketAnalysis.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\WeekOne.g.cs
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\WeekTwo.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\App.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets_MarkupCompile.cache
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets_MarkupCompile.lref
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\Companies.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\Forecast Companies.baml
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\GovernmentRegulations.baml
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\MainWindow.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\PortfolioAnalysis.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\StockMarketAnalysis.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\WeekOne.baml
+C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\WeekTwo.baml
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.g.resources
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.Properties.Resources.resources
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.csproj.GenerateResource.cache

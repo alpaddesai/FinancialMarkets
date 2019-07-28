@@ -12,7 +12,7 @@
             <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}" Offset="1"/>
         </LinearGradientBrush>
     </Window.Background>
-    <Grid Margin="0,0,8,11">
+    <Grid x:Name="PortfolioAnalysis" Margin="0,0,8,11">
         <RichTextBox HorizontalAlignment="Left" Height="339" Margin="9,3,0,0" VerticalAlignment="Top" Width="679" TextChanged="RichTextBox_TextChanged">
             <FlowDocument>
                 <Paragraph>
@@ -177,7 +177,8 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button x:Name="Regulations" Content="Government Regulations" HorizontalAlignment="Left" Margin="259,347,0,0" VerticalAlignment="Top" Width="144" Height="24" Click="Regulations_Click"/>
+        <Button x:Name="Regulations" Content="Government Regulations" HorizontalAlignment="Left" Margin="35,348,0,0" VerticalAlignment="Top" Width="144" Height="24" Click="Regulations_Click"/>
+        <Button x:Name="Portfolio_Analysis" Content="Portfolio Analysis" HorizontalAlignment="Left" Margin="447,346,0,0" VerticalAlignment="Top" Width="125" Height="24" Click="Portfolio_Analysis_Click"/>
 
     </Grid>
 </Window>

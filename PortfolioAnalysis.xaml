@@ -1,0 +1,277 @@
+﻿<Window x:Class="FinancialMarkets.PortfolioAnalysis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinancialMarkets"
+        mc:Ignorable="d"
+        Title="PortfolioAnalysis" Height="871" Width="1458" MinWidth="1571" MinHeight="871">
+    <Grid Margin="15,13,23,109">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1039*"/>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="286*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="327*"/>
+            <RowDefinition Height="439*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Companies" Content="Companies" HorizontalAlignment="Left" Margin="20,5,0,0" VerticalAlignment="Top" Width="128" Height="44" Click="Companies_Click" RenderTransformOrigin="0.304,-0.081"/>
+        <Button x:Name="Portfolio_Performance" Content="Portfolio Performance" HorizontalAlignment="Left" Margin="163,5,0,0" VerticalAlignment="Top" Width="132" Height="45" Click="Portfolio_Performance_Click" RenderTransformOrigin="0.538,0.98"/>
+        <Button x:Name="WeekOne" Content="Week One" HorizontalAlignment="Left" Margin="319,6,0,0" VerticalAlignment="Top" Width="130" Height="44" Click="WeekOne_Click"/>
+        <Button x:Name="WeekTwo" Content="Week Two" HorizontalAlignment="Left" Margin="466,4,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="WeekTwo_Click"/>
+        <RichTextBox HorizontalAlignment="Left" Height="702" Margin="15,58,0,0" VerticalAlignment="Top" Width="827" Grid.RowSpan="2" TextChanged="RichTextBox_TextChanged_1">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontSize="21.3333333333333" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Center">
+                    <Run FontSize="14" Text="FORECASTING FOR NEXT YEAR"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="The value of the portfolio after one year, with reasons given for the probability chosen is described in the next section. The closing date is December 03, 2004. Forecasting for next year for each company:"/>
+                    <Span TextDecorations="Underline">
+                        <Run/>
+                    </Span>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Span TextDecorations="Underline">
+                        <Run/>
+                    </Span>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontSize="12" Text="BANK OF NEW YORK COMPANY INC" TextDecorations="Underline"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="According to Analyst Estimates, Bank of New York Company Inc. has an average estimate of Earnings next year to be 4.02.. The EPS is estimated to be 2.12."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="It growth is estimated to be 9.1%. The sector is estimated to grow about 9.7% next year but the industry growth estimated to be 9.5%. "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Sales growth will be  7.2%"/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Overall the company looks  promising  in the future year.      "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="On the basis of these facts, I have estimated the probabilities show above"/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" Text="DUPONT" TextDecorations="Underline"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="According to Analyst Estimates, DuPont has an average estimate of Earnings next year to be 2.72. The EPS estimated to be 2.72."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="It is estimated a growth of 10.3%. The sector is estimated to grow about next year 113% and the industry growth estimated to be 45.6%."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Sales growth will be -4.2%."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Overall the company looks decent in the future.      "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="On the basis of these facts, I have estimated the probabilities show above."/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="FORD MOTOR CORPORATION:" TextDecorations="Underline"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="According to Analyst Estimates, Ford Motor Co. has an average estimate of Earnings next year to be 1.97. The EPS is estimated to be 1.97.  "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="The estimated growth next year is   -6.6%. The sector is estimated to grow about            next year 30.3% and the industry growth estimated to be -12.5%.     "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Sales growth will be  0.7%"/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Overall the company looks decent in the future.          "/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" FontFamily="Palatino Linotype" Text="On the basis of these facts, I have estimated the probabilities show above"/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="MOTOROLA:" TextDecorations="Underline"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="According to Analyst Estimates, Motorola has an average estimate of Earnings next year to be  0.97. The EPS is estimated to be  0.97."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="The estimated growth next year is 16.9%. The sector is estimated to grow about   25.7% next year but the industry growth estimated to be 14.8%.   "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Sales growth will be 4.9%."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Overall the company looks good in the future.                             "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="On the basis of these facts, I have estimated the probabilities shown above."/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="STAPLES INC." TextDecorations="Underline"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="According to Analyst Estimates,   Staples has an average estimate of Earnings next year to be 1.64 . The EPS trend  is estimated to be 1.64.    "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="The estimated growth next year is 17.1%.The sector is estimated to grow about 30.3%   next year but the industry growth estimated to be   16.8%."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Sales growth will be  9.7%."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Overall the company looks  promising in the future.     "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="On the basis of these facts, I have estimated the probabilities show above"/>
+                            <Run Text="."/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontSize="16" FontFamily="Times New Roman" Margin="0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontSize="12" FontFamily="Palatino Linotype" Text="TEXAS INSTRUMENTS" TextDecorations="Underline"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="According to Analyst Estimates, Texas Instruments has an average estimate of Earnings next year to be 1.13.  The EPS trends are estimated to be 1.13.   "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="The estimated growth next year is 114.6%. The sector is estimated to grow about 42.7% next year but the industry growth estimated to be 123.3%. "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Sales growth will be 6%."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Overall the company looks  good  in the future.      "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="On the basis of these facts, I have estimated the probabilities show above."/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" Text="TEXTRON INC. " TextDecorations="Underline"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="According to Analyst Estimates, Textron Inc. has an average estimate of Earnings next year to be 3.97. The EPS  trends are estimated to be 3.97.   "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="The estimated growth next year is 19.9%.The sector is estimated to grow about  16.6% next year and the industry growth estimated to be 14.4%. "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Sales growth will be 7.5%.     "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="Overall the company looks  promising  in the future."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run FontSize="12" Text="On the basis of these facts, I have estimated the probabilities show above"/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" Text="CONCLUSION:" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="The objective of the portfolio: to evaluate the portfolio performance tracking the Dow Jones index in a weekly basis was successfully met. The data used in this analysis is taken from Boston Globe, Wall Street Journal, different analyst opinions from the Louis Rukeyser's show and the various events taking place in the individual companies."/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontSize="12" TextDecorations="Underline"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image Margin="848,27,4,140" Source="Image16.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1028,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="233" Grid.ColumnSpan="4" FontSize="14"><Run FontWeight="Bold" Text="BANK OF NEW YORK COMPANY"/></TextBlock>
+        <Image Margin="0,26,27,151" Source="Image17.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1134,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="77" FontSize="14" Grid.ColumnSpan="4"><Run FontWeight="Bold" Text="DUPONT"/></TextBlock>
+        <Image Margin="855,193,36,394" Source="Image18.png" Stretch="Fill" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Image Margin="13,193,19,390" Source="Image19.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Column="1" Grid.RowSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1073,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="202" FontSize="14" Grid.ColumnSpan="4" Grid.Row="1"><Run FontWeight="Bold" Text="FORD MOTOR CORPORATION"/></TextBlock>
+        <Image Margin="857,47,35,198" Source="Image20.png" Stretch="Fill" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Image Margin="11,45,13,197" Source="Image21.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1125,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="92" FontSize="14" Grid.ColumnSpan="4" Grid.Row="1" RenderTransformOrigin="0.413,2.4"><Run FontWeight="Bold" Text="MOTOROLA"/></TextBlock>
+        <Image Margin="13,238,5,-2" Source="Image23.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Row="1" Grid.Column="1"/>
+        <Image Margin="866,242,15,6" Source="Image24.png" Stretch="Fill" Grid.Row="1"/>
+        <Button x:Name="Forecast_Companies" Content="Forecast Companies" HorizontalAlignment="Left" Margin="624,7,0,0" VerticalAlignment="Top" Width="140" Height="42" Click="Forecast_Companies_Click"/>
+
+    </Grid>
+</Window>

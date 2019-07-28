@@ -50,5 +50,13 @@ namespace FinancialMarkets
             GovernmentRegulations GovernmentRegulationsObject = new GovernmentRegulations();
             GovernmentRegulationsObject.Show();
         }
+
+     
+
+        private void Portfolio_Analysis_Click(object sender, RoutedEventArgs e)
+        {
+            PortfolioAnalysis PortfolioAnalysisObject = new PortfolioAnalysis();
+            PortfolioAnalysisObject.Show();
+        }
     }
 }

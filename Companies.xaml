@@ -1,0 +1,127 @@
+﻿<Window x:Class="FinancialMarkets.Companies"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinancialMarkets"
+        mc:Ignorable="d"
+        Title="Companies" Height="687.737" Width="1556" MinWidth="1556" MinHeight="688" MaxWidth="1556" MaxHeight="688">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="304*"/>
+            <RowDefinition Height="471*"/>
+        </Grid.RowDefinitions>
+        <RichTextBox HorizontalAlignment="Left" Height="295" Margin="13,5,0,0" VerticalAlignment="Top" Width="319" TextChanged="RichTextBox_TextChanged_3" Grid.RowSpan="2">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontFamily="Palatino Linotype" Text="The investment of this portfolio was created in order to track its performance during the periods between 09/12/2004 to 12/03/2004 against the performance of the market, represented by the Dow Jones Industrial Average (DJIA). The performance of the portfolio was monitored on  a weekly basis.  "/>
+                    <Run Text="The investment portfolio is composed by seven companies traded at New York Stock Exchange. Exactly two of them are part of the Dow Jones Industrial Average Index.  My investment constraint was $5,000. On Sunday, September 9"/>
+                    <Span Typography.Variants="Superscript">
+                        <Run Text="th"/>
+                    </Span>
+                    <Run Text=", I bought stocks at NYSE at a closing price. The analysis of this portfolio includes any reason for any deviations between the portfolio and the DJIA Index. Possible reasons included the 2004 Election, industry markets, and particular companies' financial aims.  Based on probabilities a projection of the portfolio is also made for next one year with reasons. To create balanced portfolio, companies from industrial sectors were included. Diverse areas like Money Center Banks, Technology, Retail, Chemicals, and Manufactures were considered. In the following lines a brief explanation about each selected company is given."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="314" Margin="10,53,0,0" VerticalAlignment="Top" Width="319" TextChanged="RichTextBox_TextChanged_2" Grid.Row="1">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="BANK OF NEW YORK COMPANY INC" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="The Bank of New York Company, Inc. is a securities servicing provider for investors, financial intermediaries and issuers. The Company is involved in the infrastructure of the capital markets, servicing securities in more than 100 markets worldwide. It focuses on highly scalable, fee-based securities servicing and fiduciary businesses. The Company distinguishes itself competitively by offering an array of products and services around the investment lifecycle. These include advisory and asset management services to support the investment decision; extensive trade execution, clearance and settlement capabilities; custody, securities lending, accounting and administrative services for investment portfolios, and risk and performance measurement tools for analyzing portfolios. It also provides services for issuers of both equity and debt securities"/>
+                    <Run Text="."/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image Margin="334,11,815,352" Source="Portfolio Table.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <RichTextBox HorizontalAlignment="Left" Height="311" Margin="730,69,0,0" VerticalAlignment="Top" Width="328" TextChanged="RichTextBox_TextChanged" Grid.Row="1">
+            <FlowDocument>
+                <Paragraph FontSize="16" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontWeight="Bold" FontSize="12" Text=" "/>
+                    <Run FontWeight="Bold" FontSize="12" Text="E.I. DU PONT DE NEMOURS &amp; CO (DUPONT)" TextDecorations="Underline"/>
+                    <Run FontSize="12" Text=" " TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="E. I. DuPont de Nemours (DuPont) is a global company engaged in the field of science and technology in a range of disciplines, including high-performance materials, synthetic fibers, electronics, specialty chemicals, agriculture and biotechnology. The Company operates globally, manufacturing a range of products for distribution and sale to many different markets, including the automotive, textile, construction, agricultural, medical, packaging, electronics and nutrition and health markets. DuPont and its subsidiaries have operations in approximately 75 countries worldwide, and approximately 55% of consolidated net sales are made to customers outside the United States. Subsidiaries and affiliates of DuPont conduct manufacturing, seed production or selling activities, and some are distributors of products manufactured by the Company."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="304" Margin="733,7,0,0" VerticalAlignment="Top" Width="328" TextChanged="RichTextBox_TextChanged_1" Grid.RowSpan="2">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Span TextDecorations="Underline">
+                        <Run Text="MOTOROLA"/>
+                    </Span>
+                </Paragraph>
+                <Paragraph FontSize="10" FontFamily="Arial" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" FontFamily="Palatino Linotype" Text="Motorola, Inc. is a global provider of wireless, broadband, automotive communications technologies and embedded electronic products. It provides software-enhanced wireless telephone and messaging, two-way radio products and systems, as well as networking and Internet-access products, for consumers, network operators and commercial, government and industrial customers. The Company also provides end-to-end systems for the delivery of interactive digital video, voice and high-speed data solutions for broadband operators, and embedded semiconductor solutions for customers in wireless communications, networking and transportation markets. In addition, Motorola offers integrated electronic systems for the automotive, telematics, industrial, telecommunications,  computing and portable energy systems markets"/>
+                    <Run FontSize="12" Text="."/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run TextDecorations="Underline"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="328" Margin="334,48,0,0" VerticalAlignment="Top" Width="393" TextChanged="RichTextBox_TextChanged" Grid.Row="1">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run Text=" FORD MOTOR CO" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="Ford Motor Company is a global company with two core businesses: Automotive and Financial Services. The Automotive business consists of the design, development, manufacture, sale and service of cars, trucks and service parts. In 2003, the Company organized its automotive business as two primary segments, Americas and International. The Americas segment includes primarily the sale of Ford, Lincoln and Mercury brand vehicles and related service parts in North America and Ford-brand vehicles and related service parts in South America. The International segment includes the sale of Ford-brand vehicles and related service parts outside of North and South America and the sale of Premier Automotive Group brand vehicles and related service parts throughout the world. The Financial Services business includes the operations of Ford Motor Credit Company, a provider of vehicle-related financing, leasing and insurance, and The Hertz Corporation, which operates a car and equipment rental business."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="330" Margin="1063,8,0,0" VerticalAlignment="Top" Width="279" Grid.RowSpan="2">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="STAPLES" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="Staples, Inc. is an office supplies retailer that sells its products through a superstore concept. The Company operates three business segments: North American Retail, North American Delivery and European Operations. Staples' North American Retail segment consists of United States and Canadian business units that, as of January 31, 2004, sold office products and services through 1,358 retail stores. Its North American Delivery segment consists of United States and Canadian business units that sell and deliver office products and services directly to customers. Staples' European Operations business units sold office products and services through 201 retail stores in the United Kingdom, Germany, the Netherlands, Portugal and Belgium, and sold and delivered office products and services directly to customers throughout the United Kingdom, Germany, France, Belgium, Spain, Italy and Sweden."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="295" Margin="1064,90,0,0" Grid.Row="1" VerticalAlignment="Top" Width="277" RenderTransformOrigin="-0.47,-0.17">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="TEXAS INSTRUMENTS" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run FontSize="12" Text="Texas Instruments Inc. (TI) manufactures, markets and sells high-technology components and systems used in the commercial electronic and electrical equipment industry, primarily for industrial and consumer markets. TI has three principal businesses: Semiconductor, Sensors and Controls, and Educational and Productivity Solutions. Semiconductor designs, manufactures and sells integrated circuits. Its core products include analog integrated circuits and digital signal processors. Sensors and Controls sell custom-designed sensors, controls and radio frequency identification systems. Educational and Productivity Solutions is a supplier of graphing handheld calculators and other calculators. The Company's largest geographic markets are in Asia, Europe, the United States and Japan."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="633" Margin="1350,9,0,0" VerticalAlignment="Top" Width="191" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5">
+            <RichTextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.195"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.497"/>
+                </TransformGroup>
+            </RichTextBox.RenderTransform>
+            <FlowDocument>
+                <Paragraph FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Span FontWeight="Bold" TextDecorations="Underline">
+                        <Run Text="TEXTRON INC"/>
+                    </Span>
+                </Paragraph>
+                <Paragraph FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run Text="Textron Inc. is a multi-industry company with operations in five business segments. The Bell segment manufactures military helicopters and tiltrotor aircraft for the United States Government and commercial helicopters for corporate, offshore, utility, charter, police, fire, rescue and emergency medical customers. It also supplies advanced weapon systems and piston aircraft engines to the defense and aerospace markets. The Cessna segment is primarily engaged in the manufacture of light- and mid-size business jets. Textron Fastening Systems is a provider of integrated fastening systems solutions. The Industrial segment designs, manufactures and sells golf carts and turf-care equipment, plastic fuel systems, wire and cable installation equipment, and industrial pumps and gears. Textron Financial Corporation is a diversified commercial finance business with core operations in aircraft finance, asset-based lending, distribution finance, golf finance, resort finance and structured capital."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

@@ -1,0 +1,217 @@
+﻿<Window x:Class="FinancialMarkets.WeekOne"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinancialMarkets"
+        mc:Ignorable="d"
+        Title="WeekOne" Height="1028.225" Width="1312.275" MaxWidth="1312" MaxHeight="1028" MinWidth="1312" MinHeight="1028">
+    <Grid Margin="18,-2,36,13">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="149*"/>
+            <ColumnDefinition Width="115*"/>
+            <ColumnDefinition Width="1179*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="599*"/>
+        </Grid.RowDefinitions>
+        <RichTextBox HorizontalAlignment="Left" Height="961" Margin="6,5,0,0" VerticalAlignment="Top" Width="668" Grid.ColumnSpan="3" Grid.RowSpan="2" TextChanged="RichTextBox_TextChanged">
+            <FlowDocument>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Center">
+                    <Run FontSize="14" Text="PORTFOLIO PERFORMANCE FROM SEPTEMBER 12 "/>
+                    <Run FontSize="14" Text="TH" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="14" Text="    TO OCTOBER 24 "/>
+                    <Run FontSize="14" Text="H" Typography.Variants="Superscript"/>
+                    <Run Text=" "/>
+                    <Run FontSize="14" Text="   "/>
+                    <Run Text=" "/>
+                    <Run FontSize="12" Text=" "/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="16" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Span FontWeight="Normal" FontSize="14.6666666666667">
+                        <Run/>
+                    </Span>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="16" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Span FontWeight="Normal" FontSize="14.6666666666667">
+                        <Run Text="The purchase date is Sunday, September 12, 2004 and all the prices considered at close on Friday, September 10, 2004.. All the prices considered at close on Friday, October 22, 2004. The next table depicts that. "/>
+                    </Span>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Left">
+                    <Run FontWeight="Bold" FontSize="12" Text="PORTFOLIO BETA: 1.27"/>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                    <Run Text="ANALYSIS:&#x9;"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="24,0,0,0">
+                        <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Span FontWeight="Normal">
+                                <Run Text="From the week of September 12, to October 24"/>
+                            </Span>
+                            <Run Text=" "/>
+                            <Span FontWeight="Normal" Typography.Variants="Superscript">
+                                <Run Text="th"/>
+                            </Span>
+                            <Run Text=" "/>
+                            <Run FontWeight="Normal" Text="the value of the portfolio increases by about eight dollars. The value of portfolio Beta so obtained is higher than expected. In the next section trading is done to bring the value closer to one."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="24,0,0,0">
+                        <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Span FontWeight="Normal">
+                                <Run Text="The main reason for increase in value of portfolio would be rise in prices of stocks in Textron Inc. , Texas Instruments. And Bank of New York Company Inc. "/>
+                            </Span>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="24,0,0,0">
+                        <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Span FontWeight="Normal">
+                                <Run Text="The next section depicts a graphical analysis of the variation in Portfolio as compared to DJAI variance  during these past few weeks. "/>
+                            </Span>
+                        </Paragraph>
+                        <Paragraph FontWeight="Bold" FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Span FontWeight="Normal">
+                                <Run/>
+                            </Span>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontWeight="Bold" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Center">
+                    <Span>
+                        <Run Text="DEVIATION IN WEEK OF OCTOBER 10"/>
+                    </Span>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Span>
+                                <Run Text="As seen from the graph there is a deviation in between the portfolio variance and DJIA variance in the week of October 10. DJIA is almost steady with little variance whereas the portfolio index decreases."/>
+                            </Span>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Span>
+                                <Run Text="Both the DJIA and Portfolio index decreases but at a different  magnitude. DJIA improves from -1.35 to -1.21 whereas the portfolio decreases from -0.475 to -1.34. The variation in magnitude is caused due to the higher Beta coefficient."/>
+                            </Span>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Span>
+                                <Run Text="There is also a drop in prices of stocks of the following companies:"/>
+                            </Span>
+                        </Paragraph>
+                        <List MarkerStyle="Disc" Margin="0" Padding="0">
+                            <ListItem Margin="48,0,0,0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Span>
+                                        <Run Text="DuPont stock price falls from 43.46 to 42.76 due to higher energy costs and weaker technology spending."/>
+                                    </Span>
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem Margin="48,0,0,0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Span>
+                                        <Run Text="Ford Motors Co. stock price falls from 13.95 to 13.25 due to a reported drop of 4 percent  in September sales. Possible causes include consumer confidence and high fuel costs. The reason for overall sales drops is due to the high cost of gasoline  prices."/>
+                                    </Span>
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem Margin="48,0,0,0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Span>
+                                        <Run Text="Staples stock price falls from 29.4 to 28.8, possible reasons can be accredited to Office Depot whose management is changing. The  CEO resigned recently. "/>
+                                    </Span>
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem Margin="48,0,0,0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                    <Span>
+                                        <Run Text="Textron Inc. stock prices dropped from 64.37 to 63.09, due to rising fuel prices. "/>
+                                    </Span>
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem Margin="0">
+                                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="48,0,0,0" TextAlignment="Justify">
+                                    <Span>
+                                        <Run Text="Texas Instruments stock prices fall from 64.37 to 63.09 as well."/>
+                                    </Span>
+                                </Paragraph>
+                                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                                    <ListItem Margin="0">
+                                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                                            <Span>
+                                                <Run Text="Hence due to the fall in stock prices in the four out of seven companies within the portfolio, with minimal increase in prices with Motorola, and Bank of New York Company Inc. the overall index of the portfolio falls short of the DJIA.  "/>
+                                            </Span>
+                                        </Paragraph>
+                                    </ListItem>
+                                </List>
+                            </ListItem>
+                        </List>
+                    </ListItem>
+                </List>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="24,0,0,0" TextAlignment="Justify"/>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0">
+                    <Span>
+                        <Run Text="The overall decrease in DJIA and Portfolio on Week of October 3"/>
+                    </Span>
+                    <Run Text=" "/>
+                    <Span Typography.Variants="Superscript">
+                        <Run Text="rd"/>
+                    </Span>
+                    <Run Text=" "/>
+                    <Span>
+                        <Run Text=", is mainly accredited to oils crossing $50-barrel mark, due oil workers in Nigeria on strike. "/>
+                    </Span>
+                </Paragraph>
+                <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0">
+                    <Span>
+                        <Run/>
+                    </Span>
+                </Paragraph>
+                <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0">
+                    <Run FontSize="12" Text="TRADING OF STOCKS TO OBTAIN BETA CLOSER TO ONE"/>
+                </Paragraph>
+                <List MarkerStyle="Disc" Margin="0" Padding="0">
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Run Text="Beta coefficient has a very high value in the previous table. The effect is that for example in the week of September 26 "/>
+                            <Span Typography.Variants="Superscript">
+                                <Run Text="th"/>
+                            </Span>
+                            <Run Text="  "/>
+                            <Span>
+                                <Run Text=", the portfolio as well as the DJIA decreased, but the difference is very wide, the  Portfolio is -0.7 while DJIA is -2.32 and the reason is due to the higher values of  Beta coefficients."/>
+                            </Span>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem Margin="48,0,0,0">
+                        <Paragraph FontSize="14.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
+                            <Span>
+                                <Run Text="In order for the portfolio to properly match the DJIA, it should have a value as close to one as possible.  Hence for this very reason in the next section I have traded the stocks of all of the companies in order to obtain a Beta as close to one as possible.  The stocks of the companies which had a high beta were sold whereas those which had a low beta e.g. Staples and Dupont were bought. "/>
+                            </Span>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph FontWeight="Bold" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Center">
+                    <Span>
+                        <Run/>
+                    </Span>
+                </Paragraph>
+                <Paragraph>
+                    <Run/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image HorizontalAlignment="Left" Height="318" Margin="455,18,0,0" VerticalAlignment="Top" Width="524" Source="Image8.png" Grid.RowSpan="2" Grid.Column="2"/>
+        <Image HorizontalAlignment="Left" Height="371" Margin="453,233,0,0" VerticalAlignment="Top" Width="545" Source="Image10.png" Grid.Row="1" Grid.Column="2">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Image10.png"/>
+            </Image.OpacityMask>
+        </Image>
+
+    </Grid>
+</Window>
