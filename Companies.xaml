@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinancialMarkets"
         mc:Ignorable="d"
-        Title="Companies" Height="687.737" Width="1556" MinWidth="1556" MinHeight="688" MaxWidth="1556" MaxHeight="688">
+        Title="Companies" Height="687.737" Width="1332" MaxWidth="1332" MaxHeight="688">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="304*"/>
             <RowDefinition Height="471*"/>
         </Grid.RowDefinitions>
-        <RichTextBox HorizontalAlignment="Left" Height="295" Margin="13,5,0,0" VerticalAlignment="Top" Width="319" TextChanged="RichTextBox_TextChanged_3" Grid.RowSpan="2">
+        <RichTextBox HorizontalAlignment="Left" Height="295" Margin="13,5,0,0" VerticalAlignment="Top" Width="252" TextChanged="RichTextBox_TextChanged_3" Grid.RowSpan="2">
             <FlowDocument>
                 <Paragraph>
                     <Run FontFamily="Palatino Linotype" Text="The investment of this portfolio was created in order to track its performance during the periods between 09/12/2004 to 12/03/2004 against the performance of the market, represented by the Dow Jones Industrial Average (DJIA). The performance of the portfolio was monitored on  a weekly basis.  "/>
@@ -23,7 +23,7 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="314" Margin="10,53,0,0" VerticalAlignment="Top" Width="319" TextChanged="RichTextBox_TextChanged_2" Grid.Row="1">
+        <RichTextBox HorizontalAlignment="Left" Height="326" Margin="10,53,0,0" VerticalAlignment="Top" Width="249" TextChanged="RichTextBox_TextChanged_2" Grid.Row="1">
             <FlowDocument>
                 <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
                     <Run FontSize="12" Text="BANK OF NEW YORK COMPANY INC" TextDecorations="Underline"/>
@@ -40,8 +40,8 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Image Margin="334,11,815,352" Source="Portfolio Table.png" Stretch="Fill" Grid.RowSpan="2"/>
-        <RichTextBox HorizontalAlignment="Left" Height="311" Margin="730,69,0,0" VerticalAlignment="Top" Width="328" TextChanged="RichTextBox_TextChanged" Grid.Row="1">
+        <Image Margin="271,7,669,356" Source="Portfolio Table.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <RichTextBox HorizontalAlignment="Left" Height="324" Margin="554,58,0,0" VerticalAlignment="Top" Width="269" TextChanged="RichTextBox_TextChanged" Grid.Row="1">
             <FlowDocument>
                 <Paragraph FontSize="16" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
                     <Run FontWeight="Bold" FontSize="12" Text=" "/>
@@ -53,7 +53,7 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="304" Margin="733,7,0,0" VerticalAlignment="Top" Width="328" TextChanged="RichTextBox_TextChanged_1" Grid.RowSpan="2">
+        <RichTextBox HorizontalAlignment="Left" Height="296" Margin="658,5,0,0" VerticalAlignment="Top" Width="220" TextChanged="RichTextBox_TextChanged_1" Grid.RowSpan="2">
             <FlowDocument>
                 <Paragraph FontWeight="Bold" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
                     <Span TextDecorations="Underline">
@@ -69,7 +69,7 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="328" Margin="334,48,0,0" VerticalAlignment="Top" Width="393" TextChanged="RichTextBox_TextChanged" Grid.Row="1">
+        <RichTextBox HorizontalAlignment="Left" Height="328" Margin="268,55,0,0" VerticalAlignment="Top" Width="278" TextChanged="RichTextBox_TextChanged" Grid.Row="1">
             <FlowDocument>
                 <Paragraph FontWeight="Bold" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
                     <Run Text=" FORD MOTOR CO" TextDecorations="Underline"/>
@@ -79,7 +79,7 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="330" Margin="1063,8,0,0" VerticalAlignment="Top" Width="279" Grid.RowSpan="2">
+        <RichTextBox HorizontalAlignment="Left" Height="295" Margin="885,6,0,0" VerticalAlignment="Top" Width="220" Grid.RowSpan="2">
             <FlowDocument>
                 <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
                     <Run FontSize="12" Text="STAPLES" TextDecorations="Underline"/>
@@ -89,7 +89,7 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="295" Margin="1064,90,0,0" Grid.Row="1" VerticalAlignment="Top" Width="277" RenderTransformOrigin="-0.47,-0.17">
+        <RichTextBox HorizontalAlignment="Left" Height="322" Margin="832,58,0,0" Grid.Row="1" VerticalAlignment="Top" Width="273" RenderTransformOrigin="-0.47,-0.17">
             <FlowDocument>
                 <Paragraph FontWeight="Bold" FontSize="18.6666666666667" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Justify">
                     <Run FontSize="12" Text="TEXAS INSTRUMENTS" TextDecorations="Underline"/>
@@ -102,7 +102,7 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="633" Margin="1350,9,0,0" VerticalAlignment="Top" Width="191" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5">
+        <RichTextBox HorizontalAlignment="Left" Height="633" Margin="1114,10,0,0" VerticalAlignment="Top" Width="191" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5">
             <RichTextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

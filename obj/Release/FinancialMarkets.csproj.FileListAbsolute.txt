@@ -1,7 +1,6 @@
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.exe.config
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.exe
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\bin\Release\FinancialMarkets.pdb
-C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\FinancialMarkets.csprojAssemblyReference.cache
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\Companies.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\Forecast Companies.g.cs
 C:\Users\ADG\source\repos\FinancialMarkets\FinancialMarkets\obj\Release\GovernmentRegulations.g.cs

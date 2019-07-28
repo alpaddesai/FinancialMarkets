@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinancialMarkets"
         mc:Ignorable="d"
-        Title="PortfolioAnalysis" Height="871" Width="1458" MinWidth="1571" MinHeight="871">
-    <Grid Margin="15,13,23,109">
+        Title="PortfolioAnalysis" Height="817" Width="1197" MaxWidth="1197" MaxHeight="817">
+    <Grid Margin="15,13,23,58">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1039*"/>
             <ColumnDefinition Width="37*"/>
@@ -23,7 +23,7 @@
         <Button x:Name="Portfolio_Performance" Content="Portfolio Performance" HorizontalAlignment="Left" Margin="163,5,0,0" VerticalAlignment="Top" Width="132" Height="45" Click="Portfolio_Performance_Click" RenderTransformOrigin="0.538,0.98"/>
         <Button x:Name="WeekOne" Content="Week One" HorizontalAlignment="Left" Margin="319,6,0,0" VerticalAlignment="Top" Width="130" Height="44" Click="WeekOne_Click"/>
         <Button x:Name="WeekTwo" Content="Week Two" HorizontalAlignment="Left" Margin="466,4,0,0" VerticalAlignment="Top" Width="146" Height="46" Click="WeekTwo_Click"/>
-        <RichTextBox HorizontalAlignment="Left" Height="702" Margin="15,58,0,0" VerticalAlignment="Top" Width="827" Grid.RowSpan="2" TextChanged="RichTextBox_TextChanged_1">
+        <RichTextBox HorizontalAlignment="Left" Height="617" Margin="15,58,0,0" VerticalAlignment="Top" Width="536" Grid.RowSpan="2" TextChanged="RichTextBox_TextChanged_1">
             <FlowDocument>
                 <Paragraph FontWeight="Bold" FontSize="21.3333333333333" FontFamily="Palatino Linotype" Margin="0" TextAlignment="Center">
                     <Run FontSize="14" Text="FORECASTING FOR NEXT YEAR"/>
@@ -259,18 +259,18 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Image Margin="848,27,4,140" Source="Image16.png" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1028,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="233" Grid.ColumnSpan="4" FontSize="14"><Run FontWeight="Bold" Text="BANK OF NEW YORK COMPANY"/></TextBlock>
-        <Image Margin="0,26,27,151" Source="Image17.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1134,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="77" FontSize="14" Grid.ColumnSpan="4"><Run FontWeight="Bold" Text="DUPONT"/></TextBlock>
-        <Image Margin="855,193,36,394" Source="Image18.png" Stretch="Fill" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
-        <Image Margin="13,193,19,390" Source="Image19.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Column="1" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1073,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="202" FontSize="14" Grid.ColumnSpan="4" Grid.Row="1"><Run FontWeight="Bold" Text="FORD MOTOR CORPORATION"/></TextBlock>
-        <Image Margin="857,47,35,198" Source="Image20.png" Stretch="Fill" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <Image Margin="11,45,13,197" Source="Image21.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Column="1" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1125,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="92" FontSize="14" Grid.ColumnSpan="4" Grid.Row="1" RenderTransformOrigin="0.413,2.4"><Run FontWeight="Bold" Text="MOTOROLA"/></TextBlock>
-        <Image Margin="13,238,5,-2" Source="Image23.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Row="1" Grid.Column="1"/>
-        <Image Margin="866,242,15,6" Source="Image24.png" Stretch="Fill" Grid.Row="1"/>
+        <Image Margin="567,74,37,102" Source="Image16.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="782,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="233" Grid.ColumnSpan="4" FontSize="14"><Run FontWeight="Bold" Text="BANK OF NEW YORK COMPANY"/></TextBlock>
+        <Image Margin="873,73,33,108" Source="Image17.png" Stretch="Fill" Grid.ColumnSpan="4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="800,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="77" FontSize="14" RenderTransformOrigin="-2.403,1.474" Grid.ColumnSpan="2"><Run FontWeight="Bold" Text="DUPONT"/></TextBlock>
+        <Image Margin="573,219,33,352" Source="Image18.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <Image Margin="1,220,37,362" Source="Image19.png" Stretch="Fill" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="759,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="202" FontSize="14" Grid.Row="1" Grid.ColumnSpan="4"><Run FontWeight="Bold" Text="FORD MOTOR CORPORATION"/></TextBlock>
+        <Image Margin="575,82,36,199" Source="Image20.png" Stretch="Fill" Grid.Row="1"/>
+        <Image Margin="0,74,24,191" Source="Image21.png" Stretch="Fill" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Right" Width="252"/>
+        <TextBlock HorizontalAlignment="Left" Margin="796,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="92" FontSize="14" Grid.ColumnSpan="2" Grid.Row="1" RenderTransformOrigin="0.413,2.4"><Run FontWeight="Bold" Text="MOTOROLA"/></TextBlock>
+        <Image Margin="864,229,28,31" Source="Image23.png" Stretch="Fill" Grid.ColumnSpan="4" Grid.Row="1"/>
+        <Image Margin="575,236,37,34" Source="Image24.png" Stretch="Fill" Grid.Row="1"/>
         <Button x:Name="Forecast_Companies" Content="Forecast Companies" HorizontalAlignment="Left" Margin="624,7,0,0" VerticalAlignment="Top" Width="140" Height="42" Click="Forecast_Companies_Click"/>
 
     </Grid>
