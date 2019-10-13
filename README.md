@@ -27,3 +27,6 @@ Company confidential information is not displayed. All images are either custom 
 
 ## Forecast Companies
 ![image](ForecastCompanies.png)
+
+## Analysis
+![image](MinitabEssentials.jpg)
