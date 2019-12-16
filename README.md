@@ -29,4 +29,4 @@ Company confidential information is not displayed. All images are either custom 
 ![image](ForecastCompanies.png)
 
 ## Prediction Models
-![image](MinitabEssentials.jpg)
+![image](CFP.jpg)
