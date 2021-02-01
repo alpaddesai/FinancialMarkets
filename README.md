@@ -30,3 +30,5 @@ Company confidential information is not displayed. All images are either custom 
 
 ## Prediction Models
 ![image](CFP.jpg)
+
+Additional reference : https://github.com/alpaddesai/BusinessDevelopmentMergersAcquisitionsIdea
