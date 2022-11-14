@@ -33,4 +33,4 @@ Company confidential information is not displayed. All images are either custom 
 
 ![image](USCopyrightCertificate.png)
 
-Additional reference : https://github.com/alpaddesai/BusinessDevelopmentMergersAcquisitionsIdea
+Additional reference : https://github.com/alpaddesai/BusinessDevelopmentMergersAcquisitionsIdea and https://github.com/alpaddesai/InvestmentBanking
