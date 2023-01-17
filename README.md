@@ -38,4 +38,4 @@ Company confidential information is not displayed. All images are either custom 
 
 ![image](EthicsandExcellence.png)
 
-Additional reference : https://github.com/alpaddesai/InvestmentBanking
+Additional reference : https://github.com/alpaddesai/BusinessDevelopmentMergersAcquisitionsIdea
